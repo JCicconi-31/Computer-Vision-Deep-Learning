@@ -1,0 +1,34 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch / Checkpoints / Pesi dei modelli
+*.pt
+*.pth
+*.bin
+*.safetensors
+runs/
+checkpoints/
+models/*
+!models/.gitkeep
+
+# Dataset e download locali
+data/*
+!data/.gitkeep
+datasets/*
+!datasets/.gitkeep
+*.zip
+*.tar.gz
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# OS specific
+.DS_Store
+Thumbs.db
